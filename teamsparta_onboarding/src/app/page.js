@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-      <Image
-        src="public/test.png"  // test.png로 변경 후 테스트
+      <img
+        src="/test.png"  // test.png로 변경 후 테스트
         alt="Test Image"
         width={180}
         height={180}
