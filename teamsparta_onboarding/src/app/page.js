@@ -1,17 +1,19 @@
-import Image from "next/image";
+import Image from 'next/image';
+
 
 export default function Home() {
   return (
-    <div>
-      <img
-        src="/test.png"  // test.png로 변경 후 테스트
-        alt="Test Image"
-        width={180}
-        height={180}
-      />
-    </div>
-  );
+    <>
+    <nav class ="navbar" id="navbar">
+      <div class = "nav-container" id="nav-container">
+        <img src="/navbar.svg" alt="Navbar"></img>
+      </div>
+      
+    </nav>
+    </>
+  )
 }
+
 
 
 
