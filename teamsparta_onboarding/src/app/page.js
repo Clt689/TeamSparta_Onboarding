@@ -6,18 +6,7 @@ import Footer from '../common/Footer';
 export default function Home() {
   return (
     <>
-    <header>
-      <Navbar></Navbar>
-    </header>
 
-    <main>
-      <MainContent></MainContent>
-
-    </main>
-
-    <footer>
-      <Footer></Footer>
-    </footer>
 
     {/* <nav class ="navbar" id="navbar">
       <div class = "nav-container1" id="nav-container1">
