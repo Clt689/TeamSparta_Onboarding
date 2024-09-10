@@ -7,16 +7,20 @@ export default function Navbar() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   return (
-    <nav className="bg-white">
-      <div className="container mx-auto px-4 py-3 flex justify-between items-center">
+    <nav className="items-center fixed w-full h-auto flex flex-col justify-center bg-white transition-all duration-300 ease border-b border-[#e4ebf0] z-[21]">
+      <div className="font-sans font-normal text-[16px] leading-[26px] text-[#141617] h-[60px] max-w-[1200px] px-[24px] flex items-center w-full justify-between">
         {/* 왼쪽 로고 */}
         <div className="flex items-center space-x-4 mr-20">
-          <img src="/navbar.svg" alt="Sparta Logo" className="h-10" />
+          <img src="/navbar.svg" alt="Sparta Logo" className="cursor-pointer mt-[3px]" />
         
 
         {/* 중앙 링크 */}
         <div className="flex space-x-8">
-          <a href="#" className="text-gray-700 hover:text-gray-900">부트캠프</a>
+          <div className="flex gap-[4px] items-center cursor-pointer">
+            <a href="#" className="relative flex gap-[4px] items-center px-[10px] py-[6px]">부트캠프</a>
+            <div className="w-[20px] h-[20px] fill-none overflow-hidden"></div>
+          </div>
+
           <a href="#" className="text-gray-700 hover:text-gray-900">취업 지원</a>
           <a href="#" className="text-gray-700 hover:text-gray-900">후기&블로그</a>
           <a href="#" className="text-gray-700 hover:text-gray-900">이벤트</a>
