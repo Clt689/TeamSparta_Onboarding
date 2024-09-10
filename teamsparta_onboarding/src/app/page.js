@@ -1,15 +1,35 @@
 import Image from 'next/image';
-
+import Navbar from './components/Navbar';
+import MainContent from './components/MainContent';
+import Footer from './components/Footer';
 
 export default function Home() {
   return (
     <>
-    <nav class ="navbar" id="navbar">
-      <div class = "nav-container" id="nav-container">
+    <header>
+      <Navbar></Navbar>
+    </header>
+
+    <main>
+      <MainContent></MainContent>
+
+    </main>
+
+    <footer>
+      <Footer></Footer>
+    </footer>
+
+    {/* <nav class ="navbar" id="navbar">
+      <div class = "nav-container1" id="nav-container1">
+        
         <img src="/navbar.svg" alt="Navbar"></img>
       </div>
+      <div class = "nav-container2" id="nav-container2">
+
+      </div>
       
-    </nav>
+    </nav> */}
+
     </>
   )
 }
