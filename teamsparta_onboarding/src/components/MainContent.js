@@ -2,12 +2,10 @@
 
 export default function MainContent() {
   return(
-    <>
-      <h1>here is MainContent</h1>
-      <h1>here is MainContent</h1>
-      <h1>here is MainContent</h1>
-      <h1>here is MainContent</h1>
-      <h1>here is MainContent</h1>
-    </>
+    <section className="relative">
+      <section >
+
+      </section>
+    </section>
   );
 }

@@ -3,6 +3,9 @@ import "./globals.css";
 import Navbar from "@/common/Navbar";
 import Footer from "@/common/Footer";
 import MainContent from "@/components/MainContent";
+import { QuestionRtan } from "@/common/QuestionRtan";
+import { SubNav } from "@/components/SubNav";
+import { Main } from "next/document";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -27,9 +30,11 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Navbar/>  
+        <Navbar/>
+        <QuestionRtan/>
+        <SubNav/>
         {children}
-        <br></br><br></br><br></br>
+        <MainContent/>
         <Footer/>
       </body>
     </html>
