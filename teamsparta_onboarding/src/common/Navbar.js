@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { DownArrowIcon } from "./DownArrowIcon";
+// import { useScrollDirection } from "./hooks/useScrollDirection";
 
 export default function Navbar() {
   // 드롭다운 메뉴 상태 관리

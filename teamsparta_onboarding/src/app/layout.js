@@ -2,10 +2,11 @@ import localFont from "next/font/local";
 import "./globals.css"; 
 import Navbar from "@/common/Navbar";
 import Footer from "@/common/Footer";
-import MainContent from "@/components/MainContent";
+import { MainContent } from "@/components/MainContent";
 import { QuestionRtan } from "@/common/QuestionRtan";
 import { SubNav } from "@/components/SubNav";
-import { Main } from "next/document";
+import { useScrollDirection } from "@/hooks/useScrollDirection";
+
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -31,10 +32,12 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Navbar/>
+        <MainContent/>
+        <useScrollDirection/>
         <QuestionRtan/>
         <SubNav/>
         {children}
-        <MainContent/>
+        
         <Footer/>
       </body>
     </html>

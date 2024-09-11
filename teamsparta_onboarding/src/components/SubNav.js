@@ -1,6 +1,6 @@
 export const SubNav = () => {
   return(
-    <div className="flex items-start justify-center gap-[20px] top-[60px] pt-[10px] sticky border-b border-[#D7E0E6] bg-white overflow-x-scroll z-[20]">
+    <div className="flex items-start justify-center gap-[20px] top-[60px] pt-[10px] sticky border-b border-[#D7E0E6] bg-white overflow-x-scroll z-[20] scrollbar-hide">
       
       <div className="flex flex-col justify-center items-center gap-[10px]">
         <a className="whitespace-nowrap flex px-[10px] py-[6px] justify-center items-center gap-[10px] font-pretendard font-normal text-[16px] leading-[26px] text-[#9DA7AE] transition ease-in-out duration-300 rounded-[10px] relative">프로젝트</a>

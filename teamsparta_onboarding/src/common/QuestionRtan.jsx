@@ -4,4 +4,4 @@ export const QuestionRtan = () => {
       <img className="w-[186px] h-[72px]" src = "/question-rtan.webp"></img>
     </div>
   );
-};
+}
