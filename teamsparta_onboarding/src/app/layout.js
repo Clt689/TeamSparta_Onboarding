@@ -9,6 +9,7 @@ import { SubNav } from "@/components/SubNav";
 import { CloseSoon } from "@/components/CloseSoon";
 import { GameWPN } from "@/components/GameWPN";
 import { GameBootcampFromHome } from "@/components/GameBootcampFromHome";
+import { GameServer } from "@/components/GameServer";
 
 
 const geistSans = localFont({
@@ -38,6 +39,7 @@ export default function RootLayout({ children }) {
         <MainContent/>
         <SubNav/>
         <GameBootcampFromHome/>
+        <GameServer/>
         {/* <useScrollDirection/> */}
         <QuestionRtan/>
         {children}
