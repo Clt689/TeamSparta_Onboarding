@@ -38,6 +38,8 @@ export default function RootLayout({ children }) {
         <Navbar/>
         <MainContent/>
         <SubNav/>
+        <CloseSoon/>
+        <GameWPN/>
         <GameBootcampFromHome/>
         <GameServer/>
         {/* <useScrollDirection/> */}
