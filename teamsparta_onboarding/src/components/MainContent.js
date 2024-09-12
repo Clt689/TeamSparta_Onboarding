@@ -14,7 +14,7 @@ export const MainContent= () => {
           </h1>
           <a className="mt-[4px] flex w-[212px] h-[56px] px-[20px] py-[16px] justify-center items-center gap-[10px] z-[10] font-pretendard font-semibold text-[16px] leading-[26px] rounded-[8px] bg-[#E8344E] !text-white flex-shrink-0"
           >참가 신청하기</a>
-          <div className="absolute h-[289px] min-w-[1440px] flex gap-[20px] mr-[250px]"> {/* mr-[250px] ?? */}
+          <div className="absolute h-[289px] min-w-[1440px] flex gap-[20px] mr-[242px] "> {/* mr-[250px] ?? */}
             <img className="w-[277px] h-[289px] transform [transform:perspective(500px)_rotateY(180deg)] transition-transform duration-[1s] [transition-timing-function:cubic-bezier(0.22,_1.03,_0.75,_1.03)] delay-[500ms]" src="/maincontents/main_1.webp"></img>
             <img className="w-[277px] h-[289px] transform [transform:perspective(500px)_rotateY(180deg)] transition-transform duration-[1s] [transition-timing-function:cubic-bezier(0.22,_1.03,_0.75,_1.03)] delay-[700ms]" src="/maincontents/main_2.webp"></img>
             <div className="space min-w-[496px]"></div>
@@ -23,20 +23,55 @@ export const MainContent= () => {
           </div>
         </div>
 
-          <div className="h-fit w-full box-border absolute bottom-0 left-0 ">
-            <div className="h-[126px] bg-[rgba(0,0,0,0.24)] backdrop-blur-[20px]">
-              <div className="w-[1024px] mx-auto px-[16px] py-[26px]">
-                <div className="gap-[24px] flex-col justify-between w-full">
+        <div className="h-fit w-full box-border absolute bottom-0 left-0 ">
+          <div className="h-[126px] bg-[rgba(0,0,0,0.24)] backdrop-blur-[20px]">
+            <div className="w-[1024px] mx-auto px-[16px] py-[26px]">
+              <div className="gap-[24px] flex-row flex h-auto justify-between w-full">
 
-                  <div className="flex flex-col text-center gap-[8px]">
-                    <div className="font-pretendard font-bold text-[14px] leading-[22px] text-[#81898F] w-full text-center">
-                      교육 기간
+                <div className="whitespace-pre-wrap flex flex-col text-center gap-[8px] break-keep">
+                  <div className="font-pretendard font-normal text-[14px] leading-[22px] text-[#81898F] w-full text-center">
+                    교육 기간
+                  </div>
+                  <div className="font-pretendard font-bold text-[14px] leading-[22px] text-[#D7E0E6] text-center">
+                    24.09.09(월) ~ 25.01.21(화)
+                  </div>
+                </div>
+                <div className="initial h-auto w-[1px] border-none opacity-[0.24] bg-white"></div>
+
+                <div className="whitespace-pre-wrap flex flex-col text-center gap-[8px] break-keep">
+                  <div className="font-pretendard font-normal text-[14px] leading-[22px] text-[#81898F] w-full text-center">
+                    교육 방법
+                  </div>
+                  <div className="font-pretendard font-bold text-[14px] leading-[22px] text-[#D7E0E6] text-center">
+                  100% 온라인
+                  <br></br>
+                  (평일 오전 9시 ~ 오후 9시)
+                  </div>
+                </div>
+                <div className="initial h-auto w-[1px] border-none opacity-[0.24] bg-white"></div>
+
+                 <div className="whitespace-pre-wrap flex flex-col text-center gap-[8px] break-keep">
+                    <div className="font-pretendard font-normal text-[14px] leading-[22px] text-[#81898F] w-full text-center">
+                      수강료
                     </div>
-                    <div className="font-pretendard font-medium text-[14px] leading-[22px] text-[#D7E0E6] text-center">
-                      24.09.09(월) ~ 25.01.21(화)
+                    <div className="font-pretendard font-bold text-[14px] leading-[22px] text-[#D7E0E6] text-center">
+                    전액 무료
+                    <br></br>
+                    (내일배움카드 국비지원)
                     </div>
                   </div>
-                  <div className="initial h-auto w-[10px] border-none opacity-[0.24] bg-red"></div>
+                  <div className="initial h-auto w-[1px] border-none opacity-[0.24] bg-white"></div>
+
+                  <div className="whitespace-pre-wrap flex flex-col text-center gap-[8px] break-keep">
+                    <div className="font-pretendard font-normal text-[14px] leading-[22px] text-[#81898F] w-full text-center">
+                      모집 마감
+                    </div>
+                    <div className="font-pretendard font-bold text-[14px] leading-[22px] text-[#D7E0E6] text-center">
+                    24.09.12(목)
+                    </div>
+                  </div>
+                  <div className="initial h-auto w-[1px] border-none opacity-[0.24] bg-white"></div>
+
 
                   
 
