@@ -5,7 +5,8 @@ import Footer from "@/common/Footer";
 import { MainContent } from "@/components/MainContent";
 import { QuestionRtan } from "@/common/QuestionRtan";
 import { SubNav } from "@/components/SubNav";
-import { useScrollDirection } from "@/hooks/useScrollDirection";
+// import { useScrollDirection } from "@/hooks/useScrollDirection";
+import { CloseSoon } from "@/components/CloseSoon";
 
 
 const geistSans = localFont({
@@ -33,9 +34,10 @@ export default function RootLayout({ children }) {
       >
         <Navbar/>
         <MainContent/>
-        <useScrollDirection/>
-        <QuestionRtan/>
         <SubNav/>
+        <CloseSoon/>
+        {/* <useScrollDirection/> */}
+        <QuestionRtan/>
         {children}
         
         <Footer/>
