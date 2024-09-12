@@ -4,7 +4,7 @@ export const MainContent= () => {
   return(
     <section className="relative">
       <section className="flex flex-row justify-start items-center bg-[radial-gradient(159.82%_159.82%_at_50%_166.08%,_#6d77cf_0%,_#141617_85.5%)] z-0 overflow-hidden relative h-[733px]">
-        <img className="flex absolute bottom-0 left-1/2 transform -translate-x-1/2" src="/maincontents/main_floor.webp" ></img>
+        <img className="w-[1920px] h-[966px] flex absolute bottom-0 left-1/2 transform -translate-x-1/2" src="/maincontents/main_floor.webp" ></img>
         <div className="gap-[16px] transform -translate-y-[66px] relative w-full flex flex-col text-center items-center justify-center">
           <img className="w-[247px] h-[26px]" src="/maincontents/MainContents1.webp"></img>
           <h1 className="h-[140px] text-white text-center font-pretendard text-[50px] font-bold leading-[140%] whitespace-pre-wrap">게임 업계 취업
@@ -32,7 +32,7 @@ export const MainContent= () => {
                   <div className="font-pretendard font-normal text-[14px] leading-[22px] text-[#81898F] w-full text-center">
                     교육 기간
                   </div>
-                  <div className="font-pretendard font-bold text-[14px] leading-[22px] text-[#D7E0E6] text-center">
+                  <div className="font-pretendard font-medium text-[14px] leading-[22px] text-[#D7E0E6] text-center">
                     24.09.09(월) ~ 25.01.21(화)
                   </div>
                 </div>
@@ -42,7 +42,7 @@ export const MainContent= () => {
                   <div className="font-pretendard font-normal text-[14px] leading-[22px] text-[#81898F] w-full text-center">
                     교육 방법
                   </div>
-                  <div className="font-pretendard font-bold text-[14px] leading-[22px] text-[#D7E0E6] text-center">
+                  <div className="font-pretendard font-medium text-[14px] leading-[22px] text-[#D7E0E6] text-center">
                   100% 온라인
                   <br></br>
                   (평일 오전 9시 ~ 오후 9시)
@@ -54,7 +54,7 @@ export const MainContent= () => {
                     <div className="font-pretendard font-normal text-[14px] leading-[22px] text-[#81898F] w-full text-center">
                       수강료
                     </div>
-                    <div className="font-pretendard font-bold text-[14px] leading-[22px] text-[#D7E0E6] text-center">
+                    <div className="font-pretendard font-medium text-[14px] leading-[22px] text-[#D7E0E6] text-center">
                     전액 무료
                     <br></br>
                     (내일배움카드 국비지원)
@@ -66,13 +66,10 @@ export const MainContent= () => {
                     <div className="font-pretendard font-normal text-[14px] leading-[22px] text-[#81898F] w-full text-center">
                       모집 마감
                     </div>
-                    <div className="font-pretendard font-bold text-[14px] leading-[22px] text-[#D7E0E6] text-center">
+                    <div className="font-pretendard font-medium text-[14px] leading-[22px] text-[#D7E0E6] text-center">
                     24.09.12(목)
                     </div>
                   </div>
-                  <div className="initial h-auto w-[1px] border-none opacity-[0.24] bg-white"></div>
-
-
                   
 
                 </div>
