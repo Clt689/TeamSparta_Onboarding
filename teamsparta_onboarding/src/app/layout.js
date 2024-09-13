@@ -12,6 +12,7 @@ import { GameBootcampFromHome } from "@/components/GameBootcampFromHome";
 import { GameServer } from "@/components/GameServer";
 import { SupplyButton } from "@/common/SupplyButton";
 import { GameWhyNow } from "@/components/GameWhyNow";
+import { TrackIntroduce } from "@/components/TrackIntroduce";
 
 
 const geistSans = localFont({
@@ -45,6 +46,7 @@ export default function RootLayout({ children }) {
         <GameBootcampFromHome/>
         <GameServer/>
         <GameWhyNow/>
+        <TrackIntroduce/>
         {/* <useScrollDirection/> */}
         <QuestionRtan/>
         {children}
