@@ -10,6 +10,7 @@ import { CloseSoon } from "@/components/CloseSoon";
 import { GameWPN } from "@/components/GameWPN";
 import { GameBootcampFromHome } from "@/components/GameBootcampFromHome";
 import { GameServer } from "@/components/GameServer";
+import { SupplyButton } from "@/common/SupplyButton";
 
 
 const geistSans = localFont({
@@ -47,6 +48,7 @@ export default function RootLayout({ children }) {
         {children}
         
         <Footer/>
+        <SupplyButton/>
       </body>
     </html>
   );
