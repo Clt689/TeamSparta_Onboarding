@@ -11,6 +11,7 @@ import { GameWPN } from "@/components/GameWPN";
 import { GameBootcampFromHome } from "@/components/GameBootcampFromHome";
 import { GameServer } from "@/components/GameServer";
 import { SupplyButton } from "@/common/SupplyButton";
+import { GameWhyNow } from "@/components/GameWhyNow";
 
 
 const geistSans = localFont({
@@ -43,6 +44,7 @@ export default function RootLayout({ children }) {
         <GameWPN/>
         <GameBootcampFromHome/>
         <GameServer/>
+        <GameWhyNow/>
         {/* <useScrollDirection/> */}
         <QuestionRtan/>
         {children}
