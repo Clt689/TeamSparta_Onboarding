@@ -22,9 +22,7 @@ export const TrackIntroduce = () => {
               <div className="w-[264px] p-[24px_16px] flex-shrink-0 rounded-[12px] bg-[#25282A]">
                 <div className="font-pretendard font-semibold text-[18px] leading-[29px] m-[0_0_4px] text-white">클라이언트 호환성</div>
                 <div className="font-pretendard font-normal text-[13px] leading-[20px] opacity-70 text-white">
-                  Node.js는 Unity, Unreal과 같은 게임
-                  <br></br>
-                  클라이언트와 빠르고 쉽게 통신합니다.</div>
+                  Node.js는 Unity, Unreal과 같은 게임 클라이언트와 빠르고 쉽게 통신합니다.</div>
               </div>
 
               <div className="w-[264px] p-[24px_16px] flex-shrink-0 rounded-[12px] bg-[#25282A]">
@@ -45,7 +43,7 @@ export const TrackIntroduce = () => {
 
           <div className="flex flex-col items-center gap-[20px] w-full">
             <h6 className="font-pretendard font-semibold text-[24px] leading-[34px] text-white">4개월 후, 더 많은 취업 기회</h6>
-            <div className="m-0 flex w-full gap-[14px] overflow-x-scroll">
+            <div className="m-0 flex w-full gap-[14px]">
               
               <div className="w-[264px] p-[24px_16px] flex-shrink-0 rounded-[12px] bg-[#25282A]">
                 <div className="w-[56px] h-[56px] pt-0 rounded-[5.6px] overflow-hidden mb-[12px]">
